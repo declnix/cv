@@ -1,27 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$title$</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
 
-<header>
-  <h1>$name$</h1>
-  <p class="contact-info">
-    <strong>Email:</strong> $email$ · 
-    <strong>Phone:</strong> $phone$ · 
-    <strong>LinkedIn:</strong> <a href="$linkedin$">$linkedin$</a>
-  </p>
-</header>
+    <header style="display: flex; align-items: center; justify-content: space-between;">
+        <h1 style="margin: 0;">$name$</h1>
+        <img src="qrcode.svg" alt="QR Code" style="width: 80px; height: 80px; margin-left: 20px;">
+      </header>
+      
+      <p class="contact-info">
+        <strong>Email:</strong> $email$ · 
+        <strong>Phone:</strong> $phone$ · 
+        <strong>LinkedIn:</strong> <a href="$linkedin$">$linkedin$</a>
+      </p>
+      
+    
 
-$body$
-
-<footer>
-  Generated with Pandoc
-</footer>
-
-</body>
-</html>
+    $body$
+        
+    </body>
+    
