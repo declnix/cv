@@ -1,0 +1,31 @@
+<header class="header">
+  <div class="header__top">
+    <div class="header__content">
+      <h1 class="header__name">{{basics.name}}</h1>
+      {{#if basics.label}}<span class="header__label">{{basics.label}}</span>{{/if}}
+    </div>
+    {{#if basics.image}}
+      <img class="header__avatar" src="{{basics.image}}" alt="{{basics.name}}">
+    {{/if}}
+  </div>
+  {{#if basics.summary}}
+  <p class="header__summary">{{basics.summary}}</p>
+  {{/if}}
+  <div class="header__contact">
+    {{#if_exists (locationString basics.location)}}
+    <span class="header__contact-item">&#128205; {{locationString basics.location}}</span>
+    {{/if_exists}}
+    {{#if basics.email}}
+    <span class="header__contact-item">&#9993;&#65039; <a href="mailto:{{basics.email}}">{{basics.email}}</a></span>
+    {{/if}}
+    {{#if basics.phone}}
+    <span class="header__contact-item">&#128222; <a href="tel:{{basics.phone}}">{{basics.phone}}</a></span>
+    {{/if}}
+    {{#if basics.url}}
+    <span class="header__contact-item">&#128279; <a href="{{basics.url}}" target="_blank">{{stripProtocol basics.url}}</a></span>
+    {{/if}}
+    {{#each basics.profiles}}
+    <span class="header__contact-item"><a href="{{this.url}}" target="_blank">{{this.network}}</a></span>
+    {{/each}}
+  </div>
+</header>

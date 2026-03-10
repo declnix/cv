@@ -1,0 +1,13 @@
+<section class="section">
+  <h2 class="section__title">Interests</h2>
+  <div class="interests-list">
+    {{#each interests}}
+    <div class="interest-item">
+      <div class="interest-item__name">{{this.name}}</div>
+      {{#hasItems this.keywords}}
+      <div class="interest-item__keywords">{{join this.keywords ", "}}</div>
+      {{/hasItems}}
+    </div>
+    {{/each}}
+  </div>
+</section>

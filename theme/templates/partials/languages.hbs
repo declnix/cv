@@ -1,0 +1,11 @@
+<section class="section section--compact">
+  <h2 class="section__title">Languages</h2>
+  <div class="languages-list">
+    {{#each languages}}
+    <div class="language-item">
+      <span class="language-item__name">{{this.language}}</span>
+      <span class="language-item__fluency">{{this.fluency}}</span>
+    </div>
+    {{/each}}
+  </div>
+</section>

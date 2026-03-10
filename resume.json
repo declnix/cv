@@ -1,0 +1,180 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jarosław Wałach",
+    "label": "Full Stack Developer & DevOps Engineer",
+    "image": "./me.jpg",
+    "email": "jaroslaw.walach@gmail.com",
+    "phone": "+48661531162",
+    "url": "",
+    "summary": "Versatile Software Engineer with 7+ years building enterprise systems across the full stack. Combines deep backend expertise (Java, Spring Boot) with modern frontend skills (React, TypeScript) and production-grade DevOps practices (AWS, Terraform, Kubernetes). Known for bridging development and operations, driving architectural decisions, and mentoring teams in Agile environments.",
+    "location": {
+      "city": "Warsaw",
+      "region": "Mazowieckie",
+      "countryCode": "PL"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jaroslawwalach",
+        "url": "https://www.linkedin.com/in/jaroslawwalach"
+      },
+      {
+        "network": "GitHub",
+        "username": "declnix",
+        "url": "https://github.com/declnix"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "DPDgroup IT Solutions Poland",
+      "position": "Senior Developer",
+      "startDate": "2026-02",
+      "endDate": "",
+      "summary": "Full-time · Warsaw, Mazowieckie, Poland · Hybrid",
+      "highlights": [
+        "Lead backend architecture for logistics platform using Java 17 and Spring Boot",
+        "Drive technical decisions and conduct architecture reviews for the development team",
+        "Deliver full-stack features spanning React/Angular frontends and microservices backends",
+        "Design and implement REST APIs enabling seamless third-party integrations"
+      ]
+    },
+    {
+      "name": "DPDgroup IT Solutions Poland",
+      "position": "Developer",
+      "startDate": "2024-03",
+      "endDate": "2026-02",
+      "summary": "Full-time · 2 yrs · Warsaw, Mazowieckie, Poland · Hybrid",
+      "highlights": [
+        "Built and maintained enterprise Java applications powering logistics operations",
+        "Developed responsive web interfaces using React and Angular with TypeScript",
+        "Integrated multiple third-party systems through REST APIs"
+      ]
+    },
+    {
+      "name": "The Stepstone Group Polska",
+      "position": "DevOps Engineer",
+      "startDate": "2023-01",
+      "endDate": "2024-03",
+      "summary": "Full-time · 1 yr 3 mos · Warsaw, Mazowieckie, Poland · Hybrid",
+      "highlights": [
+        "Managed multi-environment AWS infrastructure using Terraform and Terragrunt",
+        "Automated server provisioning and configuration with Ansible playbooks",
+        "Operated HashiCorp stack (Nomad, Consul, Vault) for container orchestration and secrets management"
+      ]
+    },
+    {
+      "name": "The Stepstone Group Polska",
+      "position": "Frontend Developer",
+      "startDate": "2021-09",
+      "endDate": "2023-01",
+      "summary": "Full-time · 1 yr 5 mos · Warszawa",
+      "highlights": [
+        "Built frontend features for multi-brand recruitment platform serving millions of users",
+        "Created reusable React component library adopted across multiple brand applications",
+        "Collaborated with backend teams to design and integrate REST APIs"
+      ]
+    },
+    {
+      "name": "The Stepstone Group Polska",
+      "position": "Junior Frontend Developer",
+      "startDate": "2020-10",
+      "endDate": "2021-09",
+      "summary": "Full-time · 1 yr · Warsaw, Mazowieckie, Poland",
+      "highlights": [
+        "Developed React components for high-traffic recruitment platform",
+        "Contributed to Agile ceremonies including code reviews and sprint planning"
+      ]
+    },
+    {
+      "name": "Betacom S.A.",
+      "position": "Junior DevOps Engineer",
+      "startDate": "2020-01",
+      "endDate": "2020-09",
+      "summary": "Full-time · 9 mos",
+      "highlights": [
+        "Maintained container infrastructure using Docker Swarm and Kubernetes",
+        "Developed Python automation scripts streamlining deployment workflows",
+        "Supported CI/CD pipelines ensuring reliable software delivery"
+      ]
+    },
+    {
+      "name": "Betacom S.A.",
+      "position": "Junior Sharepoint Developer",
+      "startDate": "2019-06",
+      "endDate": "2020-01",
+      "summary": "Full-time · 8 mos · Warsaw, Mazowieckie, Poland",
+      "highlights": [
+        "Developed SharePoint web parts using React and TypeScript",
+        "Built developer tooling improving team productivity"
+      ]
+    },
+    {
+      "name": "Betacom S.A.",
+      "position": "Junior Sharepoint Developer",
+      "startDate": "2019-04",
+      "endDate": "2019-06",
+      "summary": "Internship · 3 mos",
+      "highlights": [
+        "Built SharePoint components using JavaScript and React framework"
+      ]
+    },
+    {
+      "name": "Codecool",
+      "position": "Junior Full Stack Developer",
+      "startDate": "2018-04",
+      "endDate": "2019-04",
+      "summary": "Internship · 1 yr 1 mo"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Wyższa Szkoła Handlowa w Radomiu",
+      "area": "Computer Science",
+      "studyType": "Inżynier (Inż.)",
+      "startDate": "2013",
+      "endDate": "2017"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "keywords": ["Java", "Spring Boot", "Spring Framework", "REST APIs", "Microservices"]
+    },
+    {
+      "name": "Frontend Development",
+      "keywords": ["React", "TypeScript", "JavaScript", "Angular", "HTML", "CSS"]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "keywords": ["Amazon Web Services (AWS)", "Terraform", "Kubernetes", "Docker", "Ansible", "CI/CD"]
+    },
+    {
+      "name": "Infrastructure & Tools",
+      "keywords": ["Consul", "Vault", "Nomad", "Git", "Linux"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Polish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional Working Proficiency (B2)"
+    }
+  ],
+  "interests": [
+  ],
+  "references": [
+    {
+      "name": "Dileep Gowdappa — Senior DevOps Engineer (CKA | CKS | AWS | Azure | Ansible | Terraform | Kubernetes | ECS | Consul | Vault)",
+      "reference": "I worked with Jarosław in a team where we were developing a Infrastructure for Global platform in Stepstone group which manages multiple Job portal brands across different countries. He has very good knowledge on AWS and IaC (Terraform, Ansible) and Hashicorp stack (Nomad, Consul, Vault). He is asset to any team and very good team player."
+    },
+    {
+      "name": "Mirosław Karczmarczyk — IT Management & Leadership Coach",
+      "reference": "Jarek is a hard-working and dedicated person. He always pays attention to details and is not afraid of new things. He likes to experiment. With high analytical skills, he is able to solve almost every problem. Excellent team player and always eager to support other team mates. I was really happy to have him in my team."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<section class="section section--compact">
+  <h2 class="section__title">Education</h2>
+  {{#each education}}
+  <div class="education-item">
+    <div class="education-item__degree">{{this.studyType}} in {{this.area}}</div>
+    <div class="education-item__institution">{{this.institution}}</div>
+    <div class="education-item__dates">{{formatDate this.startDate}} — {{formatDate this.endDate}}</div>
+  </div>
+  {{/each}}
+</section>

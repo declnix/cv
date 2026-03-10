@@ -1,0 +1,22 @@
+<section class="section">
+  <h2 class="section__title">Work Experience</h2>
+  {{#each work}}
+  <div class="work-item">
+    <div class="work-item__header">
+      <span class="work-item__position">{{this.position}}</span>
+      <span class="work-item__dates">{{formatDate this.startDate}} — {{formatDate this.endDate}}</span>
+    </div>
+    <div class="work-item__meta">
+      <span class="work-item__company">{{this.name}}</span>
+      {{#if this.summary}}<span class="work-item__summary">{{this.summary}}</span>{{/if}}
+    </div>
+    {{#hasItems this.highlights}}
+    <ul class="work-item__highlights">
+      {{#each this.highlights}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ul>
+    {{/hasItems}}
+  </div>
+  {{/each}}
+</section>
