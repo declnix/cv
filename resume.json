@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jarosław Wałach",
-    "label": "Full Stack Developer & DevOps Engineer",
-    "image": "./me.jpg",
+    "label": "Senior Full Stack Engineer (Backend-focused) | DevOps & Cloud",
+    "image": "",
     "email": "jaroslaw.walach@gmail.com",
     "phone": "+48661531162",
     "url": "",
-    "summary": "Versatile Software Engineer with 7+ years building enterprise systems across the full stack. Combines deep backend expertise (Java, Spring Boot) with modern frontend skills (React, TypeScript) and production-grade DevOps practices (AWS, Terraform, Kubernetes). Known for bridging development and operations, driving architectural decisions, and mentoring teams in Agile environments.",
+    "summary": "Senior Full Stack Engineer with 7+ years of experience building and modernizing production systems. Specialized in backend development (Java, Spring Boot) with strong frontend skills (React, TypeScript) and hands-on DevOps experience (AWS, Terraform, Kubernetes). Proven track record in migrating legacy applications, working in low-documentation environments, and introducing CI/CD improvements that streamline delivery.",
     "location": {
       "city": "Warsaw",
       "region": "Mazowieckie",
@@ -34,10 +34,12 @@
       "endDate": "",
       "summary": "Full-time · Warsaw, Mazowieckie, Poland · Hybrid",
       "highlights": [
-        "Lead backend architecture for logistics platform using Java 17 and Spring Boot",
-        "Drive technical decisions and conduct architecture reviews for the development team",
-        "Deliver full-stack features spanning React/Angular frontends and microservices backends",
-        "Design and implement REST APIs enabling seamless third-party integrations"
+        "Led migration of 3 legacy applications (PHP, Spring + Thymeleaf monoliths) into modern architecture (Angular, Spring Boot, batch processing)",
+        "Executed multiple migration strategies: gradual frontend replacement with REST wrapper (strangler pattern), full system rewrite, and ownership of inherited application",
+        "Reconstructed system behavior in low-documentation environment, identifying business-critical flows and separating defects from intended functionality",
+        "Owned end-to-end delivery of features across frontend (Angular), backend (Spring Boot), and CI/CD pipelines (GitLab)",
+        "Introduced GitLab CI/CD pipelines, eliminating ~30 minutes of daily manual deployment effort and standardizing release process",
+        "Designed and implemented REST APIs for integration with external systems"
       ]
     },
     {
@@ -59,9 +61,12 @@
       "endDate": "2024-03",
       "summary": "Full-time · 1 yr 3 mos · Warsaw, Mazowieckie, Poland · Hybrid",
       "highlights": [
-        "Managed multi-environment AWS infrastructure using Terraform and Terragrunt",
-        "Automated server provisioning and configuration with Ansible playbooks",
-        "Operated HashiCorp stack (Nomad, Consul, Vault) for container orchestration and secrets management"
+        "Managed and extended AWS infrastructure using Terraform and Terragrunt across multiple environments",
+        "Contributed to Terragrunt adoption, improving infrastructure consistency and environment management",
+        "Automated infrastructure provisioning and configuration with Ansible",
+        "Proposed and implemented infrastructure optimization reducing costs by ~$1000/month by consolidating DNS services",
+        "Maintained infrastructure for legacy applications, including storage scaling to support system stability",
+        "Operated HashiCorp stack (Nomad, Consul, Vault) for service orchestration and secrets management"
       ]
     },
     {
@@ -71,9 +76,10 @@
       "endDate": "2023-01",
       "summary": "Full-time · 1 yr 5 mos · Warszawa",
       "highlights": [
-        "Built frontend features for multi-brand recruitment platform serving millions of users",
-        "Created reusable React component library adopted across multiple brand applications",
-        "Collaborated with backend teams to design and integrate REST APIs"
+        "Developed frontend features for high-traffic recruitment platform serving millions of users",
+        "Built and maintained reusable React component library adopted across multiple brand applications",
+        "Collaborated with backend teams to design and integrate REST APIs",
+        "Worked in Agile environment delivering features and fixes across multiple applications"
       ]
     },
     {
@@ -140,19 +146,45 @@
   "skills": [
     {
       "name": "Backend Development",
-      "keywords": ["Java", "Spring Boot", "Spring Framework", "REST APIs", "Microservices"]
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Spring Framework",
+        "REST APIs",
+        "Microservices"
+      ]
     },
     {
       "name": "Frontend Development",
-      "keywords": ["React", "TypeScript", "JavaScript", "Angular", "HTML", "CSS"]
+      "keywords": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Angular",
+        "HTML",
+        "CSS"
+      ]
     },
     {
       "name": "DevOps & Cloud",
-      "keywords": ["Amazon Web Services (AWS)", "Terraform", "Kubernetes", "Docker", "Ansible", "CI/CD"]
+      "keywords": [
+        "Amazon Web Services (AWS)",
+        "Terraform",
+        "Kubernetes",
+        "Docker",
+        "Ansible",
+        "CI/CD"
+      ]
     },
     {
       "name": "Infrastructure & Tools",
-      "keywords": ["Consul", "Vault", "Nomad", "Git", "Linux"]
+      "keywords": [
+        "Consul",
+        "Vault",
+        "Nomad",
+        "Git",
+        "Linux"
+      ]
     }
   ],
   "languages": [
@@ -165,8 +197,7 @@
       "fluency": "Professional Working Proficiency (B2)"
     }
   ],
-  "interests": [
-  ],
+  "interests": [],
   "references": [
     {
       "name": "Dileep Gowdappa — Senior DevOps Engineer (CKA | CKS | AWS | Azure | Ansible | Terraform | Kubernetes | ECS | Consul | Vault)",
@@ -176,5 +207,16 @@
       "name": "Mirosław Karczmarczyk — IT Management & Leadership Coach",
       "reference": "Jarek is a hard-working and dedicated person. He always pays attention to details and is not afraid of new things. He likes to experiment. With high analytical skills, he is able to solve almost every problem. Excellent team player and always eager to support other team mates. I was really happy to have him in my team."
     }
+  ],
+  "projects": [
+    {
+      "name": "NixOS Configuration & Development Environment",
+      "description": "Declarative system and development environment configuration using Nix, focusing on reproducibility and developer productivity",
+      "highlights": [
+        "Built reproducible development environments using Nix and NixOS",
+        "Designed modular configuration for system and developer tooling",
+        "Explored Nix-based tooling for Neovim setup"
+      ]
+    }
   ]
-}
+  }
